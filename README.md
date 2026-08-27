@@ -50,6 +50,6 @@ The codebase for this repository was primarily generated with **Google Gemini** 
    * **Python 3.x** with OpenCV (`opencv-python`), NumPy, and required dependencies installed.
 
 2. **Run**:
-   ``bash
+   ```bash
    python play.py
    ```
