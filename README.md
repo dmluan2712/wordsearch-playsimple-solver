@@ -20,7 +20,7 @@ Optimized and tested for the **Samsung Galaxy S25** ($1080 \times 2340$ screen r
 
 The codebase for this repository was primarily generated with **Google Gemini** under guided step-by-step development.
 
-> **Warning:** The initial prompts below served only as starting points. Arriving at the current working state required heavy follow-up prompt engineering, extensive iterative debugging, grid boundary adjustments, and manual code optimization.
+**Warning:** The initial prompts below were only as starting points. Arriving at the current working state required heavy follow-up extensive debugging, grid boundary adjustments, and manual code optimization.
 
 ### Initial Prompts Used
 
@@ -53,6 +53,3 @@ The codebase for this repository was primarily generated with **Google Gemini** 
    ``bash
    python play.py
    ```
-   Connect your phone via USB and start the CLI script:
-   ```bash
-   python play.py
