@@ -48,6 +48,13 @@ The codebase for this repository was primarily generated with **Google Gemini** 
    * Android device (Samsung S25 or $1080 \times 2340$ resolution) with **USB Debugging** enabled.
    * **ADB** installed and added to system `PATH`.
    * **Python 3.x** with OpenCV (`opencv-python`), NumPy, and required dependencies installed.
+   * * Required Python libraries:
+   ```bash
+   pip install opencv-python numpy requests easyocr
+   ```
+   * If you have a GPU, you should install `torch` and `torch-vision` to speed up EasyOCR.
+   * If not, change `gpu=True` to `gpu=False` in `image_processor.py` when calling EasyOCR
+
 
 2. **Run**:
    ```bash
